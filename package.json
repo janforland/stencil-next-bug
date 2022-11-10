@@ -1,22 +1,25 @@
 {
-  "name": "formds-test",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@types/node": "18.11.9",
-    "@types/react": "18.0.25",
-    "@types/react-dom": "18.0.8",
-    "eslint": "8.27.0",
-    "eslint-config-next": "13.0.2",
-    "next": "13.0.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "4.8.4"
-  }
+    "name": "formds-test",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "node server.js",
+        "start": "NODE_ENV=production node server.js",
+        "build": "next build",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@formds/core": "^2.24.1",
+        "@formds/core-react": "^0.52.1",
+        "@formds/tokens": "^1.0.1",
+        "@types/node": "18.11.9",
+        "@types/react": "18.0.25",
+        "@types/react-dom": "18.0.8",
+        "eslint": "8.27.0",
+        "eslint-config-next": "13.0.2",
+        "next": "13.0.2",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "typescript": "4.8.4"
+    }
 }
